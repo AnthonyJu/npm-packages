@@ -1,6 +1,6 @@
 {
   "name": "@anthony-ju/eslint-config",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "eslint config extends by @antfu/eslint-config",
   "author": "Ju Peng (https://github.com/AnthonyJu/)",
   "license": "MIT",
@@ -10,6 +10,6 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "@antfu/eslint-config": "^0.38.5"
+    "@antfu/eslint-config": "^0.38.6"
   }
 }

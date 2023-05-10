@@ -2,6 +2,9 @@ module.exports = {
   extends: [
     '@antfu/eslint-config',
   ],
+  ignorePatterns: [
+    '*.scss',
+  ],
   rules: {
     'vue/component-tags-order': [
       'error',
