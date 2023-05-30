@@ -4,18 +4,16 @@
   "packageManager": "pnpm@8.3.0",
   "license": "MIT",
   "scripts": {
+    "install": "pnpm install",
     "lint": "eslint . --fix",
-    "lint:style": "stylelint **/*.{css,scss,vue} --fix",
-    "release eslint-config": "cd ./packages/eslint-config && bumpp --no-commit --no-tag --no-push  && pnpm publish",
-    "release stylelint-config": "cd ./packages/stylelint-config && bumpp --no-commit --no-tag --no-push  && pnpm publish"
+    "lint:style": "stylelint **/*.{css,scss,vue} --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.38.5",
-    "bumpp": "^9.1.0",
+    "@antfu/eslint-config": "^0.39.3",
     "eslint": "^8.39.0",
     "postcss-html": "^1.5.0",
     "postcss-scss": "^4.0.6",
-    "stylelint": "^15.6.0",
+    "stylelint": "^15.6.2",
     "stylelint-config-recess-order": "^4.0.0",
     "stylelint-config-recommended-vue": "^1.4.0",
     "stylelint-config-standard-scss": "^9.0.0",

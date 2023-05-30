@@ -1,3 +1,6 @@
 {
-    "extends":["./packages/eslint-config/index.js"]
+    "extends": [
+        "@antfu/eslint-config",
+        "./packages/eslint-config/index.js"
+    ]
 }

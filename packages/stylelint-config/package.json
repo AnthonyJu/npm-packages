@@ -4,12 +4,16 @@
   "description": "stylelint config for vue project",
   "author": "Ju Peng (https://github.com/AnthonyJu/)",
   "license": "MIT",
+  "scripts": {
+    "release": "bumpp -c 'release stylelint-config to ' --no-tag && pnpm publish"
+  },
   "repository": "https://github.com/AnthonyJu/npm-packages",
   "keywords": [
     "stylelint-config"
   ],
   "main": "index.js",
   "dependencies": {
+    "bumpp": "^9.1.0",
     "postcss-html": "^1.5.0",
     "postcss-scss": "^4.0.6",
     "stylelint-config-recess-order": "^4.0.0",
