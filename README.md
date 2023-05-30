@@ -4,7 +4,7 @@
 
 ### 安装
 
-本配置需要搭配 [@antfu/eslint-config](https://github.com/antfu/eslint-config]) 进行使用
+本配置需要搭配 [@antfu/eslint-config](https://github.com/antfu/eslint-config) 进行使用
 
 ```bash
 pnpm install --save-dev @antfu/eslint-config @anthony-ju/eslint-config
