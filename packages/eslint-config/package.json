@@ -1,11 +1,11 @@
 {
   "name": "@anthony-ju/eslint-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "eslint config extends by @antfu/eslint-config",
   "author": "Ju Peng (https://github.com/AnthonyJu/)",
   "license": "MIT",
   "scripts": {
-    "release": "bumpp --no-tag"
+    "release": "bumpp -c 'release eslint-config to ' --no-tag && pnpm publish"
   },
   "repository": "https://github.com/AnthonyJu/npm-packages",
   "keywords": [
