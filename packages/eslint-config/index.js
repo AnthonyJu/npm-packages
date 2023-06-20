@@ -1,6 +1,8 @@
 module.exports = {
   ignorePatterns: [
     '*.scss',
+    '*.yaml',
+    'src/assets/**/*',
   ],
   rules: {
     'vue/component-tags-order': [

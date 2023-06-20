@@ -1,6 +1,6 @@
 {
   "name": "@anthony-ju/eslint-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "eslint config extends by @antfu/eslint-config",
   "author": "Ju Peng (https://github.com/AnthonyJu/)",
   "license": "MIT",
