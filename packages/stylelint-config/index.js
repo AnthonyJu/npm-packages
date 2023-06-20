@@ -45,6 +45,16 @@ module.exports = {
     'function-comma-newline-after': 'never-multi-line',
     'function-parentheses-space-inside': 'never',
     'function-whitespace-after': 'always',
+    'selector-pseudo-element-no-unknown': [
+      true,
+      {
+        ignorePseudoElements: [
+          'v-deep',
+          'view-transition-new',
+          'view-transition-old',
+        ],
+      },
+    ],
     'selector-class-pattern': [
       '^(?:(?:o|c|u|t|s|is|has|_|js|qa)-)?[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*(?:__[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:--[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:\\[.+\\])?$',
       {

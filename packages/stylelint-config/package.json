@@ -1,6 +1,6 @@
 {
   "name": "@anthony-ju/stylelint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "stylelint config for vue project",
   "author": "Ju Peng (https://github.com/AnthonyJu/)",
   "license": "MIT",
