@@ -14,10 +14,10 @@ pnpm install --save-dev @antfu/eslint-config @anthony-ju/eslint-config
 
 ```json
 {
-    "extends": [
-        "@antfu/eslint-config",
-        "@anthony-ju/eslint-config"
-    ]
+  "extends": [
+    "@antfu/eslint-config",
+    "@anthony-ju/eslint-config"
+  ]
 }
 ```
 

@@ -14,5 +14,6 @@ module.exports = {
     'curly': 'off',
     'antfu/if-newline': 'off',
     'vue/singleline-html-element-content-newline': 'off',
+    'max-len': ['error', { code: 100 }],
   },
 }
