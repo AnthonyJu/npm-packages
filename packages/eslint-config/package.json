@@ -1,18 +1,18 @@
 {
   "name": "@anthony-ju/eslint-config",
-  "version": "0.1.4",
+  "version": "0.1.2",
   "description": "eslint config extends by @antfu/eslint-config",
   "author": "Ju Peng (https://github.com/AnthonyJu/)",
   "license": "MIT",
-  "scripts": {
-    "release": "bumpp -c 'release eslint-config to ' --no-tag && pnpm publish"
-  },
   "repository": "https://github.com/AnthonyJu/npm-packages",
   "keywords": [
     "eslint-config"
   ],
   "main": "index.js",
+  "scripts": {
+    "release": "bumpp -c 'release eslint-config to ' --no-tag && pnpm publish"
+  },
   "devDependencies": {
-    "bumpp": "^9.1.0"
+    "bumpp": "^9.1.1"
   }
 }

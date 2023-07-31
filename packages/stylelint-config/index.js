@@ -41,6 +41,7 @@ module.exports = {
     'declaration-colon-space-before': 'never',
     'value-list-comma-space-after': 'always-single-line',
     'value-list-comma-space-before': 'never',
+    'property-no-vendor-prefix': null,
     'function-max-empty-lines': 0,
     'function-comma-newline-after': 'never-multi-line',
     'function-parentheses-space-inside': 'never',
