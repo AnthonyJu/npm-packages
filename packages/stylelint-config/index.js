@@ -30,6 +30,14 @@ module.exports = {
     'no-eol-whitespace': true,
     'no-extra-semicolons': true,
     'no-empty-first-line': true,
+    'unit-no-unknown': [
+      true,
+      {
+        ignoreUnits: [
+          'rpx',
+        ],
+      },
+    ],
     'string-quotes': 'single',
     'no-missing-end-of-source-newline': true,
     'alpha-value-notation': 'number',
