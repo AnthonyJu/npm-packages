@@ -2,6 +2,7 @@ module.exports = {
   ignorePatterns: [
     '*.scss',
     '*.yaml',
+    '*.mp4',
     'src/assets/**/*',
   ],
   rules: {
