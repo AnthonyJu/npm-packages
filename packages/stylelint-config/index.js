@@ -1,27 +1,31 @@
 module.exports = {
   root: true,
   extends: [
+    'stylelint-config-recess-order',
     'stylelint-config-standard-scss',
     'stylelint-config-recommended-vue',
-    'stylelint-config-recess-order',
   ],
   overrides: [
     {
+      files: ['**/*.{html,vue}'],
       customSyntax: 'postcss-html',
-      files: [
-        '**/*.{html,vue}',
-      ],
     },
     {
+      files: ['**/*.{css,scss}'],
       customSyntax: 'postcss-scss',
-      files: [
-        '**/*.{css,scss}',
-      ],
     },
   ],
-  plugins: [
-    'stylelint-order',
-    'stylelint-scss',
+  plugins: ['stylelint-scss', 'stylelint-order'],
+  ignoreFiles: [
+    'dist/**/*',
+    'public/**/*',
+    'src/assets/**/*',
+    '**/*.js',
+    '**/*.ts',
+    '**/*.d.ts',
+    '**/*.md',
+    '**/*.json',
+    '**/*.yaml',
   ],
   rules: {
     'indentation': 2,
@@ -33,9 +37,7 @@ module.exports = {
     'unit-no-unknown': [
       true,
       {
-        ignoreUnits: [
-          'rpx',
-        ],
+        ignoreUnits: ['rpx'],
       },
     ],
     'string-quotes': 'single',
@@ -57,11 +59,7 @@ module.exports = {
     'selector-pseudo-element-no-unknown': [
       true,
       {
-        ignorePseudoElements: [
-          'v-deep',
-          'view-transition-new',
-          'view-transition-old',
-        ],
+        ignorePseudoElements: ['v-deep', 'view-transition-new', 'view-transition-old'],
       },
     ],
     'selector-class-pattern': [

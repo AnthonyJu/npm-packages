@@ -1,25 +1,27 @@
 {
   "name": "npm-packages",
+  "type": "module",
   "private": true,
-  "packageManager": "pnpm@8.7.5",
+  "packageManager": "pnpm@8.11.0",
   "license": "MIT",
   "scripts": {
     "up": "taze major -I",
-    "lint": "eslint . --fix",
-    "lint:style": "stylelint **/*.{css,scss,vue} --fix"
+    "lint": "eslint .",
+    "lint:style": "stylelint ."
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.42.0",
-    "eslint": "^8.49.0",
+    "@antfu/eslint-config": "^2.3.4",
+    "eslint": "^8.55.0",
     "postcss-html": "^1.5.0",
-    "postcss-scss": "^4.0.8",
-    "stylelint": "^15.10.3",
-    "stylelint-config-recess-order": "^4.3.0",
+    "postcss-scss": "^4.0.9",
+    "stylelint": "^15.11.0",
+    "stylelint-config-recess-order": "^4.4.0",
     "stylelint-config-recommended-vue": "^1.5.0",
-    "stylelint-config-standard-scss": "^11.0.0",
+    "stylelint-config-standard-scss": "^11.1.0",
     "stylelint-order": "^6.0.3",
-    "stylelint-scss": "^5.2.0",
-    "taze": "^0.11.2",
-    "typescript": "^5.2.2"
+    "stylelint-scss": "^5.3.1",
+    "taze": "^0.13.0",
+    "typescript": "^5.3.3",
+    "vue": "^3.3.10"
   }
 }
