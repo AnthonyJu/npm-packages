@@ -20,6 +20,7 @@
     "stylelint-config-standard-scss": "^11.1.0",
     "stylelint-order": "^6.0.3",
     "stylelint-scss": "^5.3.1",
+    "stylelint-stylistic": "^0.4.3",
     "taze": "^0.13.0",
     "typescript": "^5.3.3",
     "vue": "^3.3.10"

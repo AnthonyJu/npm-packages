@@ -1,6 +1,6 @@
 {
   "name": "@anthony-ju/stylelint-config",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "stylelint config for vue project",
   "author": "Ju Peng (https://github.com/AnthonyJu/)",
   "license": "MIT",
@@ -21,5 +21,8 @@
     "stylelint-order": "^6.0.3",
     "stylelint-scss": "^5.3.1",
     "taze": "^0.13.0"
+  },
+  "devDependencies": {
+    "stylelint-stylistic": "^0.4.3"
   }
 }

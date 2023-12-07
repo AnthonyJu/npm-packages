@@ -3,9 +3,6 @@ export const ignores = [
   'node_modules',
   'public',
   'src/assets',
-  '**/*.d.ts',
-  '**/*.css',
-  '**/*.scss',
 ]
 
 export const rules = {
