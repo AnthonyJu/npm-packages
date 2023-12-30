@@ -3,8 +3,8 @@ export default {
     'stylelint-config-recess-order',
     'stylelint-config-standard-scss',
     'stylelint-config-recommended-vue/scss',
+    '@stylistic/stylelint-config'
   ],
-  plugins: ['@stylistic/stylelint-plugin'],
   overrides: [
     {
       files: ['**/*.{html,vue}'],

@@ -5,9 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@stylistic/stylelint-plugin':
-    specifier: ^2.0.0
-    version: 2.0.0(stylelint@16.1.0)
+  '@stylistic/stylelint-config':
+    specifier: ^1.0.1
+    version: 1.0.1(stylelint@16.1.0)
   postcss-html:
     specifier: ^1.5.0
     version: 1.5.0
@@ -263,6 +263,16 @@ packages:
       tuf-js: 2.1.0
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /@stylistic/stylelint-config@1.0.1(stylelint@16.1.0):
+    resolution: {integrity: sha512-JgFP88HZEyo34k9RpWVdcQJtLPrMxYE58IO3qypXhmvE/NmZohj+xjDtQ8UfaarnYsLecnldw57/GHum07Ctdw==}
+    engines: {node: ^18.12 || >=20.9}
+    peerDependencies:
+      stylelint: ^16.0.2
+    dependencies:
+      '@stylistic/stylelint-plugin': 2.0.0(stylelint@16.1.0)
+      stylelint: 16.1.0
     dev: false
 
   /@stylistic/stylelint-plugin@2.0.0(stylelint@16.1.0):
