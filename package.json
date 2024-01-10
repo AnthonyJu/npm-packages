@@ -9,7 +9,7 @@
     "up": "taze major -I",
     "lint": "eslint .",
     "lint:style": "stylelint .",
-    "pick-zip": "pick-zip -i ./test -o ./test.zip"
+    "pick-zip": "pick-zip -i test -o test.zip"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.1",
