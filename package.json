@@ -5,10 +5,10 @@
   "packageManager": "pnpm@8.13.1",
   "license": "MIT",
   "scripts": {
+    "add": "pnpm i",
     "up": "taze major -I",
     "lint": "eslint .",
-    "lint:style": "stylelint .",
-    "add": "pnpm i"
+    "lint:style": "stylelint ."
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.1",

@@ -1,0 +1,23 @@
+{
+  "name": "pick-zip",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "A simple tool to pick and zip files",
+  "author": "Ju Peng (https://github.com/AnthonyJu/)",
+  "license": "MIT",
+  "repository": "https://github.com/AnthonyJu/npm-packages",
+  "keywords": [
+    "pick-zip"
+  ],
+  "main": "index.js",
+  "bin": {
+    "pick-zip": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "archiver": "^5.3.0",
+    "progress": "^2.0.3"
+  }
+}
