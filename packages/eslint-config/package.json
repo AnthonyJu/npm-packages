@@ -5,7 +5,7 @@
   "description": "eslint config extends by @antfu/eslint-config",
   "author": "Ju Peng (https://github.com/AnthonyJu/)",
   "license": "MIT",
-  "repository": "https://github.com/AnthonyJu/npm-packages",
+  "repository": "https://github.com/AnthonyJu/npm-packages/tree/main/packages/eslint-config",
   "keywords": [
     "eslint-config"
   ],

@@ -3,6 +3,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import process from 'node:process'
+import { exec } from 'node:child_process'
 
 import archiver from 'archiver'
 import Progress from 'progress'
@@ -53,6 +54,8 @@ archive.on('error', (err) => {
 })
 
 output.on('close', () => {
+  const cmd = process.platform === 'win32' ? 'start' : 'open'
+  exec(`${cmd} ${path.dirname(outputPath)}`)
   console.log('\x1B[32m%s\x1B[0m', `${outputPath.split('/').pop()} 压缩成功\n`)
 })
 
@@ -65,6 +68,7 @@ function filesCountInDirectory(dir) {
     const stats = fs.statSync(fullPath)
 
     if (stats.isDirectory()) {
+      count++
       count += filesCountInDirectory(fullPath)
     }
     else {

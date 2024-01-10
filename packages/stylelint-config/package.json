@@ -5,7 +5,7 @@
   "description": "stylelint config for vue project",
   "author": "Ju Peng (https://github.com/AnthonyJu/)",
   "license": "MIT",
-  "repository": "https://github.com/AnthonyJu/npm-packages",
+  "repository": "https://github.com/AnthonyJu/npm-packages/tree/main/packages/stylelint-config",
   "keywords": [
     "stylelint-config"
   ],
