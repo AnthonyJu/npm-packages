@@ -8,10 +8,12 @@
     "add": "pnpm i",
     "up": "taze major -I",
     "lint": "eslint .",
-    "lint:style": "stylelint ."
+    "lint:style": "stylelint .",
+    "pick-zip": "pick-zip -i ./test -o ./test.zip"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.1",
+    "@anthony-ju/pick-zip": "^0.0.1",
     "@stylistic/stylelint-config": "^1.0.1",
     "eslint": "^8.56.0",
     "postcss-html": "^1.5.0",
