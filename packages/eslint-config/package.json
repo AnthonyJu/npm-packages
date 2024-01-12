@@ -1,7 +1,7 @@
 {
   "name": "@anthony-ju/eslint-config",
   "type": "module",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "eslint config extends by @antfu/eslint-config",
   "author": "Ju Peng (https://github.com/AnthonyJu/)",
   "license": "MIT",
@@ -9,5 +9,11 @@
   "keywords": [
     "eslint-config"
   ],
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    }
+  },
   "main": "index.js"
 }

@@ -10,7 +10,9 @@ pnpm i -D eslint @antfu/eslint-config @anthony-ju/eslint-config
 
 ## 使用
 
-在根目录创建`.eslintrc`文件，并将以下内容添加到文件中:
+在根目录创建`eslint.config.js`文件，并将以下内容添加到文件中:
+
+With `"type": "module"` in package.json (recommended):
 
 ```js
 import antfu from '@antfu/eslint-config'
@@ -23,6 +25,22 @@ export default antfu(
   },
 )
 ```
+
+With CJS:
+
+```js
+const antfu = require('@antfu/eslint-config').default
+const { ignores, rules } = require('@anthony-ju/eslint-config')
+
+module.exports = antfu(
+  {
+    rules,
+    ignores,
+  },
+)
+```
+
+Add script for package.json：
 
 ```json
 {
