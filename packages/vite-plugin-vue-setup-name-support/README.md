@@ -1,4 +1,4 @@
-# vite-plugin-vue-setup-extend-plus
+# vite-plugin-vue-setup-name-support
 
 Make the vue script setup syntax support the name and inheritAttrs attribute
 
@@ -12,7 +12,7 @@ Automatically convert based on name and inheritAttrs
 ## Install
 
 ```bash
-pnpm add -D vite-plugin-vue-setup-name-support
+pnpm add -D vite-plugin-vue-support-setup-name
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ pnpm add -D vite-plugin-vue-setup-name-support
 ```ts
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
-import VueSetupNameSupport from 'vite-plugin-vue-setup-name-support'
+import VueSetupNameSupport from 'vite-plugin-vue-support-setup-name'
 
 export default defineConfig({
   plugins: [vue(), VueSetupNameSupport()],
