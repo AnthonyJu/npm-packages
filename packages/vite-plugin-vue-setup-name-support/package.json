@@ -1,0 +1,32 @@
+{
+  "name": "vite-plugin-vue-setup-name-support",
+  "version": "0.1.0",
+  "description": "Suppot setup name for Vue 3",
+  "author": "Ju Peng (https://github.com/AnthonyJu/)",
+  "license": "MIT",
+  "repository": "https://github.com/AnthonyJu/npm-packages/tree/main/packages/vite-plugin-vue-setup-name-support",
+  "keywords": [
+    "vite plugin",
+    "vite-plugin-vue-setup-name-support",
+    "vue",
+    "setup",
+    "name"
+  ],
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsc -p . -w --incremental --skipLibCheck",
+    "build": "rm -rf dist && tsc -p . --skipLibCheck",
+    "up": "taze major -I"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@vue/compiler-sfc": "^3.4.19",
+    "magic-string": "^0.30.7",
+    "taze": "^0.13.3",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.3"
+  }
+}
