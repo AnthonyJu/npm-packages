@@ -5,7 +5,8 @@ export default antfu(
   {
     rules,
     ignores,
-    // unocss: true,
-    // formatters: true,
+    formatters: {
+      markdown: false,
+    },
   },
 )

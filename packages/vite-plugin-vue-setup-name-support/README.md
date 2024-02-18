@@ -20,7 +20,7 @@ pnpm add -D vite-plugin-vue-setup-name-support
 - In `vite.config.ts`:
 
 ```ts
-import { Plugin, defineConfig } from 'vite'
+import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
 import VueSetupNameSupport from 'vite-plugin-vue-setup-name-support'
 
@@ -40,3 +40,7 @@ export default defineConfig({
 
 </script>
 ```
+
+## Check more
+
+https://github.com/AnthonyJu/npm-packages/tree/main/packages/vite-plugin-vue-setup-name-support
