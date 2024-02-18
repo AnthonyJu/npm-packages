@@ -2,16 +2,16 @@
 
 ## eslint-config
 
-[Personal eslint config](./packages/eslint-config/README.md)
+[Personal eslint config](./packages/eslint-config)
 
 ## stylelint-config
 
-[Personal stylelint config for vue](./packages/stylelint-config/README.md)
+[Personal stylelint config for vue](./packages/stylelint-config)
 
 ## pick-zip
 
-A simple tool to pick and zip files
+[A simple tool to pick and zip files](./packages/pick-zip)
 
 ## vite-plugin-vue-setup-name-support
 
-[Make the vue script setup syntax support the name and inheritAttrs attribute](./packages/vite-plugin-vue-setup-name-support/README.md)
+[Make the vue script setup syntax support the name and inheritAttrs attribute](./packages/vite-plugin-vue-setup-name-support)
