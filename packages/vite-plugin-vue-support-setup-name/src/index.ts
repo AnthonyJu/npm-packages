@@ -35,9 +35,9 @@ function supportSetupName(code: string, id: string) {
   return null
 }
 
-export default function vueSetupNameSupport(): Plugin {
+export default function VueSupportSetupName(): Plugin {
   return {
-    name: 'vite:vue-setup-name-support',
+    name: 'vite:vue-support-setup-name',
     enforce: 'pre',
     async transform(code, id) {
       if (!/\.vue$/.test(id)) return null

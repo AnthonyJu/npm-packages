@@ -5,7 +5,7 @@
       "ESNext",
       "DOM"
     ],
-    "module": "commonjs",
+    "module": "ES6",
     "moduleResolution": "node",
     "strict": false,
     "noUnusedLocals": true,
