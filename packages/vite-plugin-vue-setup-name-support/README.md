@@ -22,10 +22,10 @@ pnpm add -D vite-plugin-vue-support-setup-name
 ```ts
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
-import VueSetupNameSupport from 'vite-plugin-vue-support-setup-name'
+import SupportSetupName from 'vite-plugin-vue-support-setup-name'
 
 export default defineConfig({
-  plugins: [vue(), VueSetupNameSupport()],
+  plugins: [vue(), SupportSetupName()],
 })
 ```
 
@@ -33,7 +33,7 @@ export default defineConfig({
 
 ```vue
 <template>
-  <div>vite-plugin-vue-setup-name</div>
+  <div>vite-plugin-vue-support-setup-name</div>
 </template>
 
 <script lang="ts" setup name="MyName" inheritAttrs="false">
