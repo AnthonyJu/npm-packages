@@ -1,10 +1,11 @@
 {
-  "name": "@anthony-ju/pick-zip",
+  "name": "pick-zip",
   "type": "module",
   "version": "0.1.0",
   "description": "A simple tool to pick and zip files",
   "author": "Ju Peng (https://github.com/AnthonyJu/)",
   "license": "MIT",
+  "homepage": "https://github.com/AnthonyJu/npm-packages/tree/main/packages/pick-zip",
   "repository": "https://github.com/AnthonyJu/npm-packages/tree/main/packages/pick-zip",
   "keywords": [
     "pick-zip"
