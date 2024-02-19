@@ -1,6 +1,7 @@
 {
   "name": "vite-plugin-vue-support-setup-name",
-  "version": "0.2.0",
+  "type": "module",
+  "version": "0.3.0",
   "description": "Suppot setup name for Vue 3",
   "author": "Ju Peng (https://github.com/AnthonyJu/)",
   "license": "MIT",
