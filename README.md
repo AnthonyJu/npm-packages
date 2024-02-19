@@ -12,6 +12,6 @@
 
 [A simple tool to pick and zip files](./packages/pick-zip)
 
-## vite-plugin-vue-setup-name-support
+## vite-plugin-vue-support-setup-name
 
-[Make the vue script setup syntax support the name and inheritAttrs attribute](./packages/vite-plugin-vue-setup-name-support)
+[Make the vue script setup syntax support the name and inheritAttrs attribute](./packages/vite-plugin-vue-supportsetup-name)
