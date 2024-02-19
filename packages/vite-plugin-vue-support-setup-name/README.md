@@ -1,21 +1,19 @@
 # vite-plugin-vue-support-setup-name
 
-Make the vue script setup syntax support the name and inheritAttrs attribute
+使 vue script setup 语法支持 name 和inheritAttrs 属性，根据 name 和inheritAttrs 自动转换。
 
-Automatically convert based on name and inheritAttrs
+## 特性
 
-## Feature
+- 支持 name
+- 支持 inheritAttrs
 
-- support name
-- support inheritAttrs
-
-## Install
+## 安装
 
 ```bash
 pnpm add -D vite-plugin-vue-support-setup-name
 ```
 
-## Usage
+## 使用
 
 - In `vite.config.ts`:
 
@@ -41,6 +39,6 @@ export default defineConfig({
 </script>
 ```
 
-## Check more
+## 更多
 
 https://github.com/AnthonyJu/npm-packages/tree/main/packages/vite-plugin-vue-setup-name-support
