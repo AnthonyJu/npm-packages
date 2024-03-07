@@ -41,4 +41,4 @@ export default defineConfig({
 
 ## 更多
 
-https://github.com/AnthonyJu/npm-packages/tree/main/packages/vite-plugin-vue-setup-name-support
+https://github.com/AnthonyJu/npm-packages/tree/main/packages/vite-plugin-vue-support-setup-name
