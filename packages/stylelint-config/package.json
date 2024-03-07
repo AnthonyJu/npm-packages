@@ -1,7 +1,7 @@
 {
   "name": "@anthony-ju/stylelint-config",
   "type": "module",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "stylelint config for vue project",
   "author": "Ju Peng (https://github.com/AnthonyJu/)",
   "license": "MIT",
@@ -18,11 +18,11 @@
     "@stylistic/stylelint-config": "^1.0.1",
     "postcss-html": "^1.6.0",
     "postcss-scss": "^4.0.9",
-    "stylelint-config-recess-order": "^4.6.0",
+    "stylelint-config-recess-order": "^5.0.0",
     "stylelint-config-recommended-vue": "^1.5.0",
     "stylelint-config-standard-scss": "^13.0.0",
     "stylelint-order": "^6.0.4",
-    "stylelint-scss": "^6.1.0",
+    "stylelint-scss": "^6.2.1",
     "taze": "^0.13.3"
   },
   "devDependencies": {
