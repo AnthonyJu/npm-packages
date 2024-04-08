@@ -14,4 +14,4 @@
 
 ## vite-plugin-vue-support-setup-name
 
-[Make the vue script setup syntax support the name and inheritAttrs attribute](./packages/vite-plugin-vue-supportsetup-name)
+[Make the vue script setup syntax support the name and inheritAttrs attribute](./packages/vite-plugin-vue-support-setup-name)
