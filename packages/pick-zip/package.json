@@ -1,7 +1,7 @@
 {
   "name": "pick-zip",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A simple tool to pick and zip files",
   "author": "Ju Peng (https://github.com/AnthonyJu/)",
   "license": "MIT",

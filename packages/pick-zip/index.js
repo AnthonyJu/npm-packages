@@ -10,6 +10,7 @@ import Progress from 'progress'
 
 let inputPath = './dist'
 let outputPath = './dist.zip'
+let del = process.argv.includes('-d')
 
 for (let i = 2; i < process.argv.length; i++) {
   if (process.argv[i] === '-i' && process.argv[i + 1]) {
@@ -57,6 +58,8 @@ output.on('close', () => {
   const cmd = process.platform === 'win32' ? 'start' : 'open'
   exec(`${cmd} ${path.dirname(outputPath)}`)
   console.log('\x1B[32m%s\x1B[0m', `${outputPath.split('/').pop()} 压缩成功\n`)
+  // 删除原文件
+  if (del) fs.rmSync(inputPath, { recursive: true, force: true })
 })
 
 function filesCountInDirectory(dir) {
