@@ -12,7 +12,6 @@ module.exports = {
         order: [['script', 'template'], 'style'],
       },
     ],
-    'no-undef': 'error',
     'no-unused-vars': 'off',
     'curly': 'off',
     'antfu/if-newline': 'off',
